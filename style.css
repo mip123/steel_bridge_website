@@ -1,0 +1,166 @@
+body {
+  background-image: url("img/b1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url("fonts/FuturaLT.ttf");
+}
+
+@font-face {
+  font-family: Futura;
+  src: url("fonts/FuturaLT-Heavy_0.ttf");
+  font-weight: bold;
+}
+
+p {
+  font-family: Futura, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+  word-wrap: break-word;
+  max-width:1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+  text-align: center;
+  color: #B31B1B;
+}
+h2 {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+  color: #B31B1B;
+}
+
+h4 {
+  font-family: font-family: Futura,Trebuchet MS,Arial,sans-serif;  
+  color: white;
+}
+h5 {
+  font-family: font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+  color: white;
+}
+
+
+div.transbox {
+  background-color: #080808;
+}
+
+/*.carousel {
+  height: 700px;
+}
+
+.carousel .item {
+  height: 700px;
+}*/
+/*.carousel-inner > .item > a > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+
+}*/
+
+.footer {
+  position: fixed;
+  background-color: #191919;
+  width: 100%;
+  bottom: 0;
+}
+
+a.active {
+  background-color: #000000;
+  color: #ffffff !important;
+}
+
+.navbar li {
+  background-color: #000000;
+}
+
+.navbar ul, .navbar-default ul, .navbar-collapse ul {
+  margin-right: 20px;
+  font-family: Futura;
+  font-size: 24px;
+}
+
+.navbar a, .navbar-default a, .navbar-collapse a {
+  -webkit-transition: .2s all ease;
+  -moz-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  -ms-transition: .2s all ease;
+  color: #ffffff;
+}
+
+.navbar a:hover {;
+  color: #000000;
+}
+
+.navbar {
+  background-image: url("header.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  height: 110px;
+}
+
+.navbar-default {
+  border-style: none;
+}
+
+.well {
+  background-color: #080808;
+  color: #000000;
+}
+
+.greybox {
+  background-color: #cccccc;
+}
+
+.tredbox {
+  background-color: rgba(179, 27, 27, 0.6);
+}
+
+.darkbox {
+  background-color:  #191919;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.historybutton {
+  margin: 7px;
+    background-color: #ffffff;
+    color: rgb(179, 27, 27);
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.buttoncenter {
+  text-align: center;
+}
+
+.id1 {
+  float:left;
+}
+.historytext {
+  float:right;
+}
